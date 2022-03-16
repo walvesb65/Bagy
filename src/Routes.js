@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes , Route } from 'react-router-dom';
-import Overview from './views/overview';
+import Overview from './views/Overview';
 import Stores from './views/Stores';
 import Sales from './views/Sales';
 import Clients from './views/Clients';
