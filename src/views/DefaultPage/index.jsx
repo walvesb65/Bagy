@@ -6,7 +6,7 @@ import './stylles.css'
 export default function DefaultPage ({name}) {
   return (
     <div className='container_default_page'>
-      <Header section={name} />
+      <Header namePage={name} />
       <div className='bagy'>
         <img src={LogoBagy} alt="logo" />
         <h1>{name}</h1>
