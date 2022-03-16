@@ -6,7 +6,6 @@
 }
 
 .container_main {
-  background: bisque;
   display: flex;
   flex-direction: row;
   margin: auto;

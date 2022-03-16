@@ -10,7 +10,7 @@
   height: 80px;
 }
 
-.container_header img {
+.header_bar {
   display: flex;
   align-items: center;
   gap: 20px;
