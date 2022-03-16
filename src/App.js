@@ -5,10 +5,10 @@ import './App.css';
 
 function App() {
   return (
-    <>
+    <div className='container_main'>
       <Sidenav />
       <Routes />
-    </>
+    </div>
   );
 }
 

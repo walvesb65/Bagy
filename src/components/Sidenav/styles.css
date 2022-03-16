@@ -1,5 +1,4 @@
-.container {
-  padding-top: 40px;
+.container_sidenav {
   height: 100vh;
   background-color: #363740;
   width: 250px;
@@ -14,10 +13,10 @@
 }
 
 .logo {
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 
-a {
+.container_sidenav a {
   display: flex;
   align-items: center;
   justify-content: flex-start;

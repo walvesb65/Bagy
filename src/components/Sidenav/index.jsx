@@ -41,7 +41,7 @@ export default function Sidenav () {
   }, [pathname]);
 
   return (
-    <div className='container'>
+    <div className='container_sidenav'>
       <img src={Logo} alt='logo' className='logo'/>
       {options.map((content, index) => (
         <Link id={content.link} key={index} to={content.link}>
