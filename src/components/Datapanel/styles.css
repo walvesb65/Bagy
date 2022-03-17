@@ -1,0 +1,23 @@
+.container_data_panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 134px;
+  width: 260px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  gap: 20px;
+}
+
+.container_data_panel p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fc3c8d;
+}
+
+.container_data_panel span {
+  font-size: 36px;
+  color: #fc3c8d;
+}
