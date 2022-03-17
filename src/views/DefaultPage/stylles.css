@@ -15,6 +15,6 @@
   font-weight: 700;
 }
 
-.container_default_page img {
+.container_default_page > img {
   width: 20%;
 }
