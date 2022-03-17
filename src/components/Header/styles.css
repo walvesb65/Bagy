@@ -17,3 +17,7 @@
   color: #252733;
   font-size: 12px;
 }
+
+.header_bar p {
+  width: 100%;
+}

@@ -34,8 +34,10 @@
 .active {
   color: #fff;
   background-color: #463747 !important;
-  border-right: 1px solid #e5e5e5;
-  border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
-  border-left: 3px solid #fc3c8d;
+  border: 1px solid #e5e5e5 !important;
+  border-left: 3px solid #fc3c8d !important;
+}
+
+.container_sidenav a:nth-last-child(2) {
+  margin-top: 30px;
 }
