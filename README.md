@@ -13,7 +13,7 @@ Implementar um dashboard de visualização de dados em ReactJs, sem uso de bibli
  - Montagem do front-end baseado figma ;
  - Navegar pelos itens da sidenav.
 
-## Autora
+## Autor
 
 - [Willian Almeida Alves](https://www.linkedin.com/in/willianalmeidaalves/)
 
