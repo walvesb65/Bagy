@@ -1,7 +1,6 @@
 import React from 'react';
 import { AreaChart, Area, YAxis, Tooltip, CartesianGrid } from 'recharts';
 import './styles.css';
-// import CustomTooltip from 'src/components/CustomTooltip';
 
 
 export default function Chart() {
