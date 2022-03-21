@@ -4,7 +4,7 @@ import Board from '../Board';
 
 export default function Chartsection() {
   return (
-    <div className='chart_ontainer'> 
+    <div className='chart_wrapper'> 
       <Board />
     </div>
   )

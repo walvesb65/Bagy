@@ -8,7 +8,7 @@ export default function Leftreport() {
     <div className='report_container_left'>
       <div>
         <div className='title_container_left'>
-          <div>
+          <div className='title_section_left'>
             <h3>Total de Compras</h3>
             <p>20.000,00</p>
           </div>

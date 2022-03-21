@@ -34,8 +34,7 @@ export default function Sidenav () {
     const newActiveElement = document.getElementById(path);
     newActiveElement.classList.add('active')
   };
-
-  console.log('willll');
+  
   useEffect(() => {
     setActive(pathname);
   }, [pathname]);

@@ -1,17 +1,24 @@
 import React from 'react';
 import LegendPink from '../../assets/legendPink.svg';
 import LegendGray from '../../assets/legendGray.svg';
-import ArrowDown from '../../assets/arrowDownBlack.svg';
 import Chart from '../Chart';
 import './styles.css'
 
 
 const rightSectionContent = [
-  { title: 'Mês', highlight: 'setembro' },
+  { title: 'Mês', highlight: 'Setembro' },
   { title: 'Ano', highlight: 2022 },
   { title: 'Total de Faturamento', highlight: `R$ 20.000,00` },
   { title: 'Análise comparativa', highlight: 'Positivo' },
 ];
+
+const stores = [
+  {name: 'Loja 1'},
+  {name: 'Loja 2'},
+  {name: 'Loja 3'},
+  {name: 'Loja 4'},
+  {name: 'Loja 5'},
+]
 
 export default function Board() {
 
@@ -19,7 +26,7 @@ export default function Board() {
     <div className='max_chart_container'>
       <div className='left_section'>
         <div className='chart_header'>
-          <div>
+          <div className='header_title_chart'>
             <h3>Total de Faturamento Mensal</h3>
             <span>Julho 2020</span>
           </div>
@@ -42,10 +49,9 @@ export default function Board() {
         <div>
           <p>Loja</p>
           <select>
-              <option>test 1</option>
-              <option>test 2</option>
-              <option>test 3</option>
-              <option>test 4</option>
+            {stores.map((content, index) => {
+              return <option key={index}>{content.name}</option>
+            })}
           </select>
         </div>
         {rightSectionContent.map((content, index) => {
@@ -70,7 +76,6 @@ export default function Board() {
                 <p>{content.title}</p>
                 <h2 className="underline">
                   {content.highlight}
-                  <img  src={ArrowDown} alt='ArrowDown'/>
                 </h2>
               </div>
             );

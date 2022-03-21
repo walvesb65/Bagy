@@ -14,11 +14,9 @@ export default function Rightreport() {
     <div className='report_container_right'>
       <div>
         <div className='title_container_right'>
-          <div>
             {headerContent.map((header, index) => (
               <h3 key={index}>{header.title}</h3>
             ))}
-          </div>
         </div>
         <div className='right_report_container'>
               <div>
@@ -26,6 +24,30 @@ export default function Rightreport() {
                 <p>test</p>
                 <p><span className="blue">R$1000,00</span></p>
                 <p><span className="yellow">5622,00</span></p>
+              </div>
+              <div>
+                <p>test</p>
+                <p>test</p>
+                <p><span className="blue">R$1000,00</span></p>
+                <p><span className="yellow">5496,00</span></p>
+              </div>
+              <div>
+                <p>test</p>
+                <p>test</p>
+                <p><span className="blue">R$1000,00</span></p>
+                <p><span className="yellow">2000,00</span></p>
+              </div>
+              <div>
+                <p>test</p>
+                <p>test</p>
+                <p><span className="blue">R$1000,00</span></p>
+                <p><span className="yellow">5496,00</span></p>
+              </div>
+              <div>
+                <p>test</p>
+                <p>test</p>
+                <p><span className="blue">R$1000,00</span></p>
+                <p><span className="yellow">2000,00</span></p>
               </div>
               <div>
                 <p>test</p>
